@@ -1,7 +1,7 @@
 DISPLAY_NAME=Catalog API
-ENTRYPOINT=target/catalog-1.0.0.jar
+MAIN=target/catalog-1.0.0.jar
 MEMORY=1024
 VERSION=recommended
 SUBDOMAIN=catalog-api
-START=mvn clean package -DskipTests && java -jar target/catalog-1.0.0.jar
+CUSTOM_COMMAND=mvn clean package -DskipTests && java -jar target/catalog-1.0.0.jar
 DESCRIPTION=API REST para catálogo de produtos com Spring Boot e PostgreSQL
