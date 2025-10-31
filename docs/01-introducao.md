@@ -1,5 +1,3 @@
-# Introdução
-
 ## 📖 O que é este template?
 
 API REST completa para gerenciamento de catálogo de produtos construída com **Spring Boot**, **JPA/Hibernate**, **Flyway** e **PostgreSQL**. Inclui CRUD completo, validação, migrations, busca e paginação.
